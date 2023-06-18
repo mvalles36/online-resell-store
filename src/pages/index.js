@@ -30,21 +30,21 @@ const IndexPage = () => {
       <Hero
         maxWidth={'500px'}
         image={'/banner1.png'}
-        title={'Essentials for a cold winter'}
-        subtitle={'Discover Autumn Winter 2021'}
-        ctaText={'shop now'}
+        title={'Uncover Hidden Gems: Explore our Pre-Owned Fashion Store'}
+        subtitle={'Discover Unique Styles for Less'}
+        ctaText={'Explore & Shop'}
         ctaAction={goToShop}
       />
 
       {/* Message Container */}
       <div className={styles.messageContainer}>
         <p>
-          This is a demonstration of the Sydney theme for verse by{' '}
-          <span className={styles.gold}>matter design.</span>
+          This is a demonstration of an online brand name and luxery resell store for Summer by{' '}
+          <span className={styles.gold}>MV Design Studio.</span>
         </p>
         <p>
-          wear by <span className={styles.gold}>sunspel</span> and{' '}
-          <span className={styles.gold}>scotch&soda</span>
+          wear by <span className={styles.gold}>rebecca minkoff</span> and{' '}
+          <span className={styles.gold}>obey</span>
         </p>
       </div>
 
@@ -98,9 +98,9 @@ const IndexPage = () => {
       {/* Quote */}
       <Quote
         bgColor={'var(--standard-light-grey)'}
-        title={'about Sydney'}
+        title={'about ReLux'}
         quote={
-          '“We believe in two things: the pursuit of quality in everything we do, and looking after one another. Everything else should take care of itself.”'
+          '“Our carefully selected pieces rival those found in big retail stores, offering you the opportunity to own coveted brands and designer items at a fraction of the original price.”'
         }
       />
 
@@ -118,9 +118,9 @@ const IndexPage = () => {
           image={'/banner3.png'}
           title={'We are Sustainable'}
           subtitle={
-            'From caring for our land to supporting our people, discover the steps we’re taking to do more for the world around us.'
+            'We embrace sustainable fashion choices without compromising style or quality.'
           }
-          ctaText={'read more'}
+          ctaText={'learn more'}
           maxWidth={'660px'}
           ctaStyle={styles.ctaCustomButton}
         />
@@ -130,7 +130,7 @@ const IndexPage = () => {
       <div className={styles.socialContainer}>
         <Title
           name={'Styled by You'}
-          subtitle={'Tag @sydney to be featured.'}
+          subtitle={'Tag @ReLux to be featured.'}
         />
         <div className={styles.socialContentGrid}>
           <img src={`/social/socialMedia1.png`} alt={'social media 1'} />
